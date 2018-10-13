@@ -9,7 +9,7 @@
 # Title of this site
 # ---------------------------------------------------------------------
 
-title: Wiki
+title: Tukapai Wiki
 
 # ---------------------------------------------------------------------
 # Full public path to the site, without the trailing slash
@@ -56,7 +56,7 @@ langRtl: false
 # Site Authentication
 # ---------------------------------------------------------------------
 
-public: false
+public: ture
 
 auth:
   defaultReadAccess: false

@@ -18,6 +18,6 @@ services:
     ports:
       - '32100:3000'
     environment:
-      WIKI_ADMIN_EMAIL: admin@example.com
+      WIKI_ADMIN_EMAIL: tukapai@example.com
     volumes:
       - ./config.yml:/var/wiki/config.yml
