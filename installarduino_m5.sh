@@ -1,4 +1,5 @@
 #!/bin/bash
+# install for mac osX
 mkdir -p ~/Documents/Arduino/hardware/espressif && \
 cd ~/Documents/Arduino/hardware/espressif && \
 git clone https://github.com/espressif/arduino-esp32.git esp32 && \
