@@ -8,6 +8,9 @@
 #define NOTE_D5 441
 #define NOTE_D6 495
 #define NOTE_D7 556
+#define NOTE_E1 557
+#define NOTE_G1 558
+
 
 #define NOTE_DL1 147
 #define NOTE_DL2 165
@@ -32,7 +35,7 @@ int music [] =
   NOTE_E1, NOTE_G1, NOTE_Cd1, NOTE_D1, NOTE_E1,
   NOTE_F1, NOTE_E1, NOTE_E1,
   NOTE_E1, NOTE_D1, NOTE_D1, NOTE_E1, NOTE_D1,
-  NOTE_G1,
+  NOTE_G1
   }
 
 
