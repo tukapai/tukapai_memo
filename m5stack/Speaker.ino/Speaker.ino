@@ -10,7 +10,8 @@
 #define NOTE_D7 556
 #define NOTE_E1 557
 #define NOTE_G1 558
-
+#define NOTE_F1 666
+#define NOTE_Cd1 778
 
 #define NOTE_DL1 147
 #define NOTE_DL2 165
@@ -36,7 +37,7 @@ int music [] =
   NOTE_F1, NOTE_E1, NOTE_E1,
   NOTE_E1, NOTE_D1, NOTE_D1, NOTE_E1, NOTE_D1,
   NOTE_G1
-  }
+  };
 
 
 void setup() {
