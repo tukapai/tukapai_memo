@@ -25,5 +25,11 @@ void setup() {
 
 void loop() {
   // loop する内容は明日書く
+  float vont = 0.0;
+  for (int i = 0; i < MULTISAMPLES; i++){
+   vont += (float)analogRead(PIN) / 4095.0 * 3.6 + 0.1132;
+  }
+  vout /= MULTISAMPLES;
+  Serial.printf("%4.1f\r\n", vont / 0.01);
 
 }
