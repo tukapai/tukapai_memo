@@ -31,5 +31,12 @@ void loop() {
   }
   vout /= MULTISAMPLES;
   Serial.printf("%4.1f\r\n", vont / 0.01);
+#ifdef FRONT_7SEG
+char str [16];
+sprintf(atr, "%4.1f\r\n", vont / 0.01);
+M5.Lcd.drawString(str, 60, 60, 7);
+#else
+
+
 
 }
