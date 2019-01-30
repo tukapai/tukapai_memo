@@ -25,18 +25,22 @@ void setup() {
 
 void loop() {
   // loop する内容は明日書く
-  float vont = 0.0;
+  float vout = 0.0;
   for (int i = 0; i < MULTISAMPLES; i++){
-   vont += (float)analogRead(PIN) / 4095.0 * 3.6 + 0.1132;
+   vout += (float)analogRead(PIN) / 4095.0 * 3.6 + 0.1132;
   }
   vout /= MULTISAMPLES;
-  Serial.printf("%4.1f\r\n", vont / 0.01);
+  Serial.printf("%4.1f\r\n", vout / 0.01);
 #ifdef FRONT_7SEG
-char str [16];
-sprintf(atr, "%4.1f\r\n", vont / 0.01);
-M5.Lcd.drawString(str, 60, 60, 7);
+    char str [16];
+    sprintf(atr, "%4.1f\r\n", vout / 0.01);
+    M5.Lcd.drawString(str, 60, 60, 7);
 #else
+    M5.Lcd.setCursor(40, 100);
+    M5.Lcd.printf("*temp: %4.1f'C", vout / 0.01);
+#endif
 
+    delay(1000);
 
 
 }
