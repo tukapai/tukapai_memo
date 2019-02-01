@@ -1,0 +1,5 @@
+Sub SheetAddLastTest()
+    Dim sht As Worksheet
+
+    Set sht = Worksheets.Add(After:=Sheets(Sheets.Count))
+End Sub
