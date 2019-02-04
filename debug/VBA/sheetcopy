@@ -3,3 +3,9 @@ Sub SheetAddLastTest()
     Range("A2").Value = test
     Set sht = Worksheets.Add(After:=Sheets(Sheets.Count))
 End Sub
+
+Sub SheetAddFirstTest()
+    Dim sht As Worksheet
+
+    Set sht = Worksheets.Add(Before:=Sheets(1))
+End Sub
