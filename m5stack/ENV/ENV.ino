@@ -38,5 +38,5 @@ void loop() {
     M5.Lcd.setTextSize(3);
     M5.Lcd.printf("Temp: %2.1f  \r\nHumi: %2.0f%%  \r\nPressure:%2.0fPa\r\n", tmp, hum, pressure);
 
-    delay(50);
+    delay(100);
 }
