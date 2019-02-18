@@ -33,7 +33,7 @@ public class IEtest {
 
         try {
 
-            driver.get("URL");
+            driver.get("http://example.com");
 　　　　　　　/*このあとに何らかの処理～*/
 
         }catch(IOException e){
