@@ -34,7 +34,9 @@ public class IEtest {
         try {
 
             driver.get("http://example.com");
-　　　　　　　/*このあとに何らかの処理～*/
+　　　　　　　/*このあとに何らかの処理～
+　　　　　　　ログイン処理できるコードのサンプルを挿入する*/
+　　　　　　　
 
         }catch(IOException e){
 
