@@ -32,18 +32,27 @@ class ConfirmExecutionClass
      end
    end
 
-   def get_base_money
-
-          puts <<-EOT
- ----------------------------
- 基準とする時給を入力してください
- 入力例：）1250
-     EOT
-     　get.chomp
-    end
-
+   def calc_money
+        # 計算する場所
+        puts <<-EOT
+----------------------------
+基準とする時給を入力してください
+入力例：）1250
+   EOT
+        base_monoey = gets.to_i
+        puts <<-EOT
+----------------------------
+仕事をした時間を入力してください。
+入力例：）80
+   EOT
+        money_time = gets.to_i
+       #計算結果を返す
+       result = base_monoey * money_time
+       puts "あなたの残業代は #{result} 円です"
+   end
 end
 
 
 confirm = ConfirmExecutionClass.new()
 confirm.get_keyboard_input_yes_no
+confirm.calc_money
