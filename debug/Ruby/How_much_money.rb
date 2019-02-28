@@ -5,7 +5,7 @@
 # yes と入力されたらスクリプトを実行する、no と入力されたらスクリプトを終了します.
 ## ----------------------------
 
-class ConfirmExecutionClass
+class HowMuchMoneyClass
 
   def initialize
 
@@ -27,7 +27,7 @@ class ConfirmExecutionClass
          exit 1
        else
          puts "  yes または no を入力して下さい."
-         confirm = ConfirmExecutionClass.new
+         confirm = HowMuchMoneyClass.new
          confirm.get_keyboard_input_yes_no
      end
    end
@@ -53,6 +53,6 @@ class ConfirmExecutionClass
 end
 
 
-confirm = ConfirmExecutionClass.new()
+confirm = HowMuchMoneyClass.new()
 confirm.get_keyboard_input_yes_no
 confirm.calc_money
