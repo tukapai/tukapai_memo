@@ -16,3 +16,10 @@ puts helloworld!
 
 TryRubyというものができるみたいなので貼ってみる
 http://ruby.github.io/TryRuby/
+
+## Rubyのif文
+```
+if ##ここに条件分岐させたい条件を入れる
+ puts "条件に合致すれば処理を実行する"
+end
+```
