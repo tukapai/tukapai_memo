@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 #ここをIEに変更する。
-browser = webdriver.Firefox()
+browser = webdriver.InternetExplorerDriver()
 
 browser.get('target_page_is_here')
 assert 'Page_Title' in browser.title
