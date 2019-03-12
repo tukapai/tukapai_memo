@@ -1,7 +1,8 @@
 
 ##中学数学を書いてみた
 
-##TODO:
+##TODO:　ifの処理の部分をもっと細く書く
+
 def is_natural_num
  gets.chomp
  if a => 0
