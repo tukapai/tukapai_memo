@@ -31,3 +31,12 @@ end
 ```
 loop { puts "I Love Ruby♥" }
 ```
+
+
+## 配列の中身を一つにまとめたい
+
+joinを使えば配列の文字も結合で切る。
+
+```
+['foo', 'bar', 'buz'].join #=> "foobarbuz"
+```
