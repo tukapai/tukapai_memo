@@ -40,3 +40,16 @@ joinを使えば配列の文字も結合で切る。
 ```
 ['foo', 'bar', 'buz'].join #=> "foobarbuz"
 ```
+
+### メモ
+Luhnアルゴリズムで使いそうなメソッド
+
+
+reverse_each (Array)
+ex)  
+`array.reverse_each {|item| block }`
+https://ref.xaio.jp/ruby/classes/array/reverse_each
+
+each_slice (Enumerable)  
+`enum.each_slice(n) {|arr| block }`
+https://ref.xaio.jp/ruby/classes/enumerable/each_slice
