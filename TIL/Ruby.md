@@ -41,9 +41,9 @@ joinを使えば配列の文字も結合で切る。
 ['foo', 'bar', 'buz'].join #=> "foobarbuz"
 ```
 
-### メモ
-Luhnアルゴリズムで使いそうなメソッド
+### 使ってみたメソッド集
 
+Luhnアルゴリズムで使いそうなメソッド
 
 reverse_each (Array)
 ex)  
