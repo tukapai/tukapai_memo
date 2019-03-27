@@ -32,6 +32,7 @@ google(){
         *)      open "${url}";;
     esac
 }
+
 #にゃーってするやつ
 sudo ping -i0 -c1400 http://pong4.kooshin.net |grep -o ^.|tr -d '\n'|fold -w70| sed 's/[^F]/ /g'
 
