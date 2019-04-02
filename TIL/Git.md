@@ -157,16 +157,16 @@ To https://github.com/tukapai/learning_git.git
 
 ## ちょっとなれてきた人用
 
-### ローカルでオリジナルのリポジトリを作ってみる
+### ローカルでオリジナルのリポジトリを作ってみたい。
 
 GitHubなどリポジトリを管理できるサイトなどがあれば以下の呪文を唱えてみる。
 
 ```
-$ git init gitを作る際に使う呪文
-$ git add . 全部追加するよ
-$ git commit -m "Initial commit" 一般的なおまじないコミット
-$ git remote add origin https://github.com/XXXX/XXXXXX.git ここは自分のリポジトリ名を入力
-$ git push -u origin master 基本はmasterにPushをする。
+$ git init #gitを作る際に使う呪文
+$ git add . #全部追加するよ
+$ git commit -m "Initial commit" #一般的なおまじないコミット
+$ git remote add origin https://github.com/XXXX/XXXXXX.git #ここは自分のリポジトリ名を入力
+$ git push -u origin master #基本はmasterにPushをする。(後にブランチを切ったりすればここを変更したりする。)
 ```
 
 ## 参考URL
