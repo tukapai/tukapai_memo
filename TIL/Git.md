@@ -155,6 +155,20 @@ To https://github.com/tukapai/learning_git.git
 
 とりあえずこのくらいできれば大丈夫なんじゃないかなとおもいます。
 
+## ちょっとなれてきた人用
+
+### ローカルでオリジナルのリポジトリを作ってみる
+
+GitHubなどリポジトリを管理できるサイトなどがあれば以下の呪文を唱えてみる。
+
+```
+$ git init gitを作る際に使う呪文
+$ git add . 全部追加するよ
+$ git commit -m "Initial commit" 一般的なおまじないコミット
+$ git remote add origin https://github.com/XXXX/XXXXXX.git ここは自分のリポジトリ名を入力
+$ git push -u origin master 基本はmasterにPushをする。
+```
+
 ## 参考URL
 
 定番なやつ
