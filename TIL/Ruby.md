@@ -40,3 +40,26 @@ joinを使えば配列の文字も結合で切る。
 ```
 ['foo', 'bar', 'buz'].join #=> "foobarbuz"
 ```
+##　標準入力で受け取った文字列を配列のようにしたい場合はどうするべきか？
+
+変数で一旦受け取ってsplitする
+irb(main):010:0> int = "283940"　#適当な数字を変数に代入する。
+=> "283940"
+irb(main):011:0> int.split(",")　#カンマで区切るのかと思ったらそうでなかった
+=> ["283940"]
+irb(main):012:0> int.split("")　#文字が区切られておらず連続している場合は区切り文字に何も指定しない形にする。
+=> ["2", "8", "3", "9", "4", "0"]
+
+
+### 使ってみたメソッド集
+
+Luhnアルゴリズムで使いそうなメソッド
+
+reverse_each (Array)
+ex)  
+`array.reverse_each {|item| block }`
+https://ref.xaio.jp/ruby/classes/array/reverse_each
+
+each_slice (Enumerable)  
+`enum.each_slice(n) {|arr| block }`
+https://ref.xaio.jp/ruby/classes/enumerable/each_slice
