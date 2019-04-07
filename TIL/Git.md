@@ -169,6 +169,15 @@ $ git remote add origin https://github.com/XXXX/XXXXXX.git #ここは自分の�
 $ git push -u origin master #基本はmasterにPushをする。(後にブランチを切ったりすればここを変更したりする。)
 ```
 
+### コミット内容を修正をしたい場合
+
+--amend　オプションで内容を修正できるよ
+
+```
+$ git commit --amend
+
+```
+
 ## 参考URL
 
 定番なやつ
