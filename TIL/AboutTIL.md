@@ -4,3 +4,4 @@
 
 このディレクトリでやりたいことに関しては以下URLを参照する。
 https://qiita.com/sitmk/items/239335b4ed0c3c797add
+他にもなんか書く📝
