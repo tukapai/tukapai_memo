@@ -178,6 +178,13 @@ $ git commit --amend
 
 ```
 
+### Gitのコミット時間を指定する
+
+こんな感じで現時点でコミットと違う時間も指定できる
+あんまり悪用はしちゃいけませんが。
+
+`git commit -m "uptate memo.md" --date "Mon Feb 25 22:27:08 JST 2019"`
+
 ## 参考URL
 
 定番なやつ
