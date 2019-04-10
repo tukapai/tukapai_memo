@@ -63,3 +63,7 @@ https://ref.xaio.jp/ruby/classes/array/reverse_each
 each_slice (Enumerable)  
 `enum.each_slice(n) {|arr| block }`
 https://ref.xaio.jp/ruby/classes/enumerable/each_slice
+
+
+## Twitterに関するgem
+https://sites.google.com/site/gyakuhikiruby/home/twitter-gem
