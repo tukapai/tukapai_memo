@@ -65,5 +65,7 @@ each_slice (Enumerable)
 https://ref.xaio.jp/ruby/classes/enumerable/each_slice
 
 
+
+
 ## Twitterに関するgem
 https://sites.google.com/site/gyakuhikiruby/home/twitter-gem
