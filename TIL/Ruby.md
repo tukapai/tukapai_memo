@@ -69,3 +69,9 @@ https://ref.xaio.jp/ruby/classes/enumerable/each_slice
 
 ## Twitterに関するgem
 https://sites.google.com/site/gyakuhikiruby/home/twitter-gem
+
+## Rubyの環境構築に関するTips
+
+テスト環境編
+
+Rubyの環境変数をセットする
