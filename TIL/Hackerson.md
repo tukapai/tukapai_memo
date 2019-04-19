@@ -92,3 +92,12 @@ $ rm /Users/pcuser/.rbenv/shims/.rbenv-shim
 Masashi-no-MacBook-Pro:MarimoKing pcuser$ ruby --version
 ruby 2.6.0p0 (2018-12-25 revision 66547) [x86_64-darwin18]　ここが、2.6.0
 ```
+
+
+目的：Railsで使用してるロケールがUS（英語）になっているので日本語で使用できるように調整をする。
+期待する結果：UTF-8の文字を認識して日本語を表示できる状態にする。
+実施する方法：
+
+config/application.rbをjaに変更する。
+日本語用の辞書ファイルをダウンロード
+日本語用のパスをしてできるようになんか書く
