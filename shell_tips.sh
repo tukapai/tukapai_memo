@@ -41,3 +41,8 @@ sudo ping -i0 -c1400 http://pong4.kooshin.net |grep -o ^.|tr -d '\n'|fold -w70| 
 
 redhat
 $ rename Before After ./file
+
+ubuntu
+```
+$ rename s/Before/After/g filename
+```
