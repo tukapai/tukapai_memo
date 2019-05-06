@@ -1,5 +1,7 @@
 Hex: 57 65 6C 63 6F 6D 65
 
+Kawaii is justice 
+
 Hi there. I’m Masashi Otsuka 
 
 Happy Hacker is my job:)
