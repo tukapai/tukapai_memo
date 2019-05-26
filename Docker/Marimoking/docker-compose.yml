@@ -10,10 +10,10 @@ services:
       - "DATABASE_PORT=5432"
       - "DATABASE_USER=postgres"
       - "DATABASE_PASSWORD=postgres"
-    links:
+    depends_on:
       - db
-    volumes:
-      - "./app:/app" #共有フォルダの設定
+    #volumes:
+      #- "./app:/app" #共有フォルダの設定
     stdin_open: true
 
   db:
