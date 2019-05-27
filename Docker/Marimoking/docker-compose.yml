@@ -12,8 +12,9 @@ services:
       - "DATABASE_PASSWORD=postgres"
     depends_on:
       - db
-    #volumes:
-      #- "./app:/app" #共有フォルダの設定
+    command: bash -c "bundle exec rails s -p 3000 -b '0.0.0.0'"
+    volumes:
+      - "./app:/use/src/MarimoKing" #共有フォルダの設定
     stdin_open: true
 
   db:
@@ -23,3 +24,5 @@ services:
     environment:
       - "POSTGRES_USER=postgres"
       - "POSTGRES_PASSWORD=postgres"
+    volumes:
+      - ./tmp/db:/var/lib/postgresql/data
