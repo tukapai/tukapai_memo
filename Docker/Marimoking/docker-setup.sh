@@ -11,4 +11,5 @@ mkdir MarimoKing
 cd MarimoKing
 echo "SetUp!!MarimoKing!!"
 curl -O https://raw.githubusercontent.com/tukapai/tukapai_memo/master/Docker/Marimoking/docker-compose.yml
+git clone -b develop https://daa212c074e1ddb0d395a172ffdae6e57d796968:x-oauth-basic@github.com/tukapai/MarimoKing.git app
 docker-compose up
