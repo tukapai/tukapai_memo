@@ -2,7 +2,7 @@ version: "3"
 
 services:
   web:
-    build: web
+    image: tukapai/marimoking_web:v1.0
     ports:
       - "3000:3000"
     environment:
@@ -18,7 +18,7 @@ services:
     stdin_open: true
 
   db:
-    image: postgres:11.1
+    image: tukapai/marimoking_db:v1.0
     ports:
       - "5432:5432"
     environment:
