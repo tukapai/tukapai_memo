@@ -27,3 +27,5 @@ services:
       - "POSTGRES_PASSWORD=postgres"
     volumes:
       - ./tmp/db:/var/lib/postgresql/data
+      - ./app/db:/var/lib/postgresql/data/marimo #marimo_search側のdbデータを取り込む
+      - ./app/db:/docker-entrypoint-initdb.d #marimo_search側のcreate_tables.sqlをコンテナ実行時に実行
