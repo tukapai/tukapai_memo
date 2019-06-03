@@ -4,8 +4,11 @@ require 'date'
 #
 # @param
 # v_snap: スナップショットのリスト
-# 
+#
 
-def snap_add(vm_name)
- `VBoxManage snapshot "#{vm_name}" take  --live`
+def snap_list(vm_name)
+ s_list = `VBoxManage snapshot "#{vm_name}" list`
+ #ここをUUIDだけを抽出するように変更する。
+ #s_list.match(^[A-Za-z0-9]+$)
+
 end
