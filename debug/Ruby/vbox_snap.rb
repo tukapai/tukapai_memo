@@ -3,12 +3,12 @@ require 'date'
 # VirtualBoxのスナップショットを自動取得する
 #
 # @param
-# v_snap: スナップショットのリスト
+# s_list: スナップショットのリスト
 #
 
 def snap_list(vm_name)
  s_list = `VBoxManage snapshot "#{vm_name}" list`
  #ここをUUIDだけを抽出するように変更する。
- #s_list.match(^[A-Za-z0-9]+$)
-
+ #UUIDを抽出後配列に格納する。
+ s_list.match(""[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"")
 end
