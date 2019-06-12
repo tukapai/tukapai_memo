@@ -1,22 +1,22 @@
 version: "3"
 
 services:
-  # web:
-  #   container_name: marimoking_web
-  #   image: tukapai/marimoking_web:v1.0
-  #   ports:
-  #     - "3000:3000"
-  #   environment:
-  #     - "DATABASE_HOST=db"
-  #     - "DATABASE_PORT=5432"
-  #     - "DATABASE_USER=postgres"
-  #     - "DATABASE_PASSWORD=postgres"
-  #   depends_on:
-  #     - db
-  #   # command: bash -c "rm -fr /use/src/MarimoKing/tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
-  #   volumes:
-  #     - "./app:/use/src/MarimoKing"
-  #   stdin_open: true
+  web:
+    container_name: marimoking_web
+    image: tukapai/marimoking_web:v1.0
+    ports:
+      - "3000:3000"
+    environment:
+      - "DATABASE_HOST=db"
+      - "DATABASE_PORT=5432"
+      - "DATABASE_USER=postgres"
+      - "DATABASE_PASSWORD=postgres"
+    depends_on:
+      - db
+    command: bash -c "rm -fr /use/src/MarimoKing/tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
+    volumes:
+      - /usr/src/MarimoKing
+    stdin_open: true
   db:
     container_name: marimoking_db
     image: tukapai/marimoking_db:v1.0
