@@ -3,7 +3,7 @@ version: "3"
 services:
   web:
     container_name: marimoking_web
-    image: tukapai/marimoking_web:v1.0
+    image: tukapai/marimoking_web:latest
     ports:
       - "3000:3000"
     environment:
