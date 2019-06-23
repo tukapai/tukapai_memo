@@ -14,3 +14,12 @@
 
 [explainshell.com](https://explainshell.com/)
 説明: Shellの構文のManを視覚的に見れるサイト
+
+
+---
+###メモ
+
+
+[リンクチェッカー](http://wummel.github.io/linkchecker/)なるものを見つけたのであとで使ってみる。
+
+[Travis CIを使ってブログのリンクチェックを自動化する](https://rcmdnk.com/blog/2014/11/22/blog-octopress-travisci/)
