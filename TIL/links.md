@@ -7,6 +7,8 @@
 
 [composer](https://getcomposer.org/)
 
+[PHP開発でComposerを使わないなんてありえない！基礎編](https://qiita.com/niisan-tokyo/items/8cccec88d45f38171c94)
+
 ### Shell関連
 
 [daringfireball.net_markdown](https://daringfireball.net/projects/markdown/)
