@@ -1,5 +1,4 @@
 #!/bin/ruby
-require 'date'
 # VirtualBoxのスナップショットを自動取得する
 #
 # @param
