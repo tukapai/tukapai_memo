@@ -4,7 +4,7 @@
 # @param
 # s_list: a list of virtualBox snapshot
 # uuid:   Snapshot UUID list in target VM
-
+# num :   max list of snapshot
 class SnapManage
   # get snapshot list
   def snap_list(vm_name)
