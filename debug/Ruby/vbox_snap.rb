@@ -1,3 +1,4 @@
+# Language: Ruby, Level: Level 3
 #!/bin/ruby
 # Get Snapshot of virtualBox automatically
 #
@@ -20,7 +21,7 @@ class SnapManage
 
   # auto remove old snapshot
   def snap_remove(vm_name)
-    uuid = snap_list(vm_name)
+    uuid = @uuid #snap_list(vm_name)
     # Defalt snapshot count is 4
     # TODO: num can change variable
     num = 4
