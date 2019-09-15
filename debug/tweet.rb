@@ -10,4 +10,8 @@ end
 p @client.user.name
 p @client.user.description
 p @client.user.tweets_count
-todo : ツイートする方法を書く
+
+def tweet
+  @client.update(ARGV[0])
+  puts "Tweetしたぞい"
+end
