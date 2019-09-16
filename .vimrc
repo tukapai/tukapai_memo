@@ -1,5 +1,5 @@
 :
-" vundle script 
+" vundle script
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -46,6 +46,8 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+"Buffer系のプラグインを入れる 
 
 "--------------------------------------
 "--------------------------------------
