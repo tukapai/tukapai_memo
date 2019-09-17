@@ -10,4 +10,17 @@ end
 p @client.user.name
 p @client.user.description
 p @client.user.tweets_count
-todo : ツイートする方法を書く
+
+# put tweet
+def tweet
+  @client.update(ARGV[0])
+  puts "Tweetしたぞい"
+end
+
+# display timeline
+def homeTimeline
+  @client.home_timeline.each do |tweet|
+    puts "\e[33m" + tweet.user.name + "\e[32m" + "[ID:" + tweet.user.screen_name + "]"
+    puts "\e[0m" + tweet.text
+  end
+end
