@@ -25,3 +25,7 @@
 [リンクチェッカー](http://wummel.github.io/linkchecker/)なるものを見つけたのであとで使ってみる。
 
 [Travis CIを使ってブログのリンクチェックを自動化する](https://rcmdnk.com/blog/2014/11/22/blog-octopress-travisci/)
+
+### anime
+
+[狼と香辛料](http://hasekuraisuna.jp/)
