@@ -31,3 +31,5 @@
 [狼と香辛料](http://hasekuraisuna.jp/)
 
 [涼宮ハルヒ](https://sneakerbunko.jp/series/haruhi/)
+
+[ちょびっツ](http://www.tbs.co.jp/chobits/)
