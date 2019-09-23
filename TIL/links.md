@@ -33,3 +33,5 @@
 [涼宮ハルヒ](https://sneakerbunko.jp/series/haruhi/)
 
 [ちょびっツ](http://www.tbs.co.jp/chobits/)
+
+[ハヤテのごとく!！](http://hayatenogotoku.com/)
