@@ -35,3 +35,5 @@
 [ちょびっツ](http://www.tbs.co.jp/chobits/)
 
 [ハヤテのごとく!！](http://hayatenogotoku.com/)
+
+[らき☆すた](http://www.lucky-ch.com/)
