@@ -46,3 +46,6 @@ ubuntu
 ```
 $ rename s/Before/After/g filename
 ```
+
+#どのOSでも使えるランダムパスワード生成
+cat /dev/urandom | base64 | fold -w 10 | head -n 1
