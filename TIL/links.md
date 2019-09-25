@@ -26,6 +26,8 @@
 
 [Travis CIを使ってブログのリンクチェックを自動化する](https://rcmdnk.com/blog/2014/11/22/blog-octopress-travisci/)
 
+[質問は恥ではないし役に立つ](https://qiita.com/seki_uk/items/4001423b3cd3db0dada7)
+
 ### anime
 
 [狼と香辛料](http://hasekuraisuna.jp/)
