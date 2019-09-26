@@ -86,6 +86,19 @@ https://ref.xaio.jp/ruby/classes/enumerable/each_slice
 
 
 
+# エラーの処理に関して
+
+こんな感じに書く
+
+```
+begin
+  # 例外が起こりそうな処理
+rescue => error
+  # 例外が起こった際の処理(ココで上手いことエラーから復帰するようにする)
+ensure
+  # 例外の有無にかかわらずその後実行したい処理を書く
+end
+```
 
 ## Twitterに関するgem
 https://sites.google.com/site/gyakuhikiruby/home/twitter-gem
