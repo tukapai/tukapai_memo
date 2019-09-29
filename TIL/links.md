@@ -22,6 +22,8 @@
 
 [仕様とは](https://wa3.i-3-i.info/word1942.html)
 
+[システム設計の流れ・設計書の構成メモ](https://qiita.com/chocode/items/fd51dd8f561e2a0fbd70)
+
 ---
 ###メモ
 
