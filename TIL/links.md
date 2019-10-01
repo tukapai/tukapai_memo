@@ -36,6 +36,8 @@
 
 [フォルダ管理の基本ルール5選！整理されていないデスクトップにさよならバイバイ！ | eploth](https://eploth.com/knowledge/clean-desktop-files)
 
+[仕様書の書き方](https://qiita.com/ko1/items/9f5f1a2683ea54f12362)
+
 ### anime
 
 [狼と香辛料](http://hasekuraisuna.jp/)
