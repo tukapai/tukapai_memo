@@ -34,6 +34,8 @@
 
 [質問は恥ではないし役に立つ](https://qiita.com/seki_uk/items/4001423b3cd3db0dada7)
 
+[フォルダ管理の基本ルール5選！整理されていないデスクトップにさよならバイバイ！ | eploth](https://eploth.com/knowledge/clean-desktop-files)
+
 ### anime
 
 [狼と香辛料](http://hasekuraisuna.jp/)
