@@ -47,6 +47,7 @@
 
 [todoist](https://todoist.com/)
 
+[Bear](https://bear.app/)
 
 ### anime
 
