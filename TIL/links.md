@@ -49,6 +49,8 @@
 
 [Bear](https://bear.app/)
 
+[wordpress](https://ja.wordpress.org/)
+
 ### anime
 
 [狼と香辛料](http://hasekuraisuna.jp/)
