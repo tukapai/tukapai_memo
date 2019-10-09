@@ -52,6 +52,8 @@
 
 [Bear](https://bear.app/)
 
+[dash](https://kapeli.com/dash)
+
 [wordpress](https://ja.wordpress.org/)
 
 ### anime
