@@ -54,6 +54,8 @@
 
 [dash](https://kapeli.com/dash)
 
+[alfred](https://www.alfredapp.com/)
+
 [wordpress](https://ja.wordpress.org/)
 
 ### anime
